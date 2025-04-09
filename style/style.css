@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: happu;
+    src: url('../fonts/Vogue.ttf');
+}
+body{
+    font-family: happu !important;
+}
+
+.first_sec{
+    background-image: url(../wine_images/homepage11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* height: 100vh; */
+    padding: 20px;
+    color: white;
+}
+.sixth_sec{
+    background-image: url(../wine_images/homepage37.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+footer{
+    background-image: url(../wine_images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mail input::placeholder{
+    color: tomato;
+}
+@media screen and (max-width:687px){
+    /* .first_cont .display-1{
+        font-size: 16px;
+    }   
+    .first_cont h6{
+        font-size: 8px;
+    }
+    .first_cont h4{
+        font-size: 10px;
+    } */
+}
